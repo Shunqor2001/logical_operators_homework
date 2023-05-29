@@ -6,4 +6,9 @@ def main(a):
     Returns:
         bool: answer
     """
-    return
+    tens_digit = a // 10
+    units_digit = a % 10
+    
+    return tens_digit == units_digit
+
+print(main(22))

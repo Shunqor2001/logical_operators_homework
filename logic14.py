@@ -6,4 +6,8 @@ def main(a):
     Returns:
         bool: answer
     """
-    return
+    num1=a//10
+    num2=a%10
+    n =num1+num2
+    return n%2!=0
+print(main(55))

@@ -6,4 +6,16 @@ def main(a):
     Returns:
         bool: answer
     """
-    return
+    n1=a%10
+    b=a//10
+    n2=b%10
+    d=b//10
+    n3=d%10
+    c=d//10
+    n4=c%10
+    f=c//10
+    n5=f%10
+
+    z = n1<n2<n3<n4<n5
+    return z
+print (main(12345))

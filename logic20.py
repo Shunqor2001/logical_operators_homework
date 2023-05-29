@@ -8,5 +8,7 @@ def main(n):
     Returns:
         bool: answer
     """
-
-    return
+    a=n//10
+    b=n%10
+    return a>0 and b>0
+print(main(11))
