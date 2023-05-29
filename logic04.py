@@ -7,6 +7,6 @@ def main(a,b):
     Returns:
         bool: answer
     """
-    z = a == a % 2==0 and b == b%2==0
-    return z
+   
+    return a % 2 == 0 and b % 2 == 0
 print(main(2,8))
